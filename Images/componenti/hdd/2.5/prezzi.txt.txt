@@ -1,0 +1,8 @@
+seagate-500g-7200rpm 46,08 €
+samsung-2tb-5400rpm  70,20 €
+toshiba-500g-5400rpm  28,18
+seagate-2tb-7200rpm   70,99
+wd-1tb-5400rpm        47,99
+wd-500g-7200rpm       30,00
+seagate-5tb-7200rpm  155,50
+hitachi-1tb-5400rpm  54,03 €

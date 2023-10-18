@@ -1,0 +1,128 @@
+.postit{
+    padding: 20px 30px;
+    margin: 0 10px;
+    border:1px solid white;
+    border-radius: 0.75rem;
+  }
+  
+  .to-left{
+    text-align:left;
+    font-weight: bold;
+    color: gold;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  
+  .to-right{
+    text-align:right;
+    font-weight: bold;
+    color: gold;
+    font-size: 20px;
+    padding-right: 50px;
+}
+  
+  .spazio{
+    margin-bottom: 10px;
+  }
+
+  .title-ord{
+    margin: 0 15px;
+  }
+
+  .title-ord span{
+    text-transform: lowercase;
+  }
+
+  .text-comp{
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 19px;
+  }
+  
+  .pagamento{
+    margin-top: 10px;
+  }
+
+  .linked.paga{
+    padding-top: 5px;
+    font-size: 17px;
+    padding-right: 0;
+    padding-left: 50px;
+  }
+
+  .linked.prezzo{
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .linked{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 50px;
+    font-weight: bold;
+  }
+  
+  .linked:hover{
+    text-decoration: none;
+    color: gold;
+  }
+
+  .linked-text{
+    font-weight: normal;
+  }
+  
+  .cont-comp{
+    margin-bottom: 1%;
+  }
+  
+  .text-middle-bottom{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .col-container{
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .col-container:first-child{
+    margin-top: 0;
+  }
+
+  .col-container:last-child{
+    padding-bottom: 0;
+    border: none;
+  }
+  
+  .select_form-ord{
+    /*background-color: rgba(255, 255, 255, 0.452);
+    max-width: 70%;*/
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 0.75rem;
+  }
+  
+  .middle{
+    margin-top:40px;
+  }
+
+  .select_form{
+    margin-top: 20px;
+  }
+
+  #Accettato{
+    color: white;
+  }
+  
+  #Spedito{
+    color: gold;
+  }
+  
+  #Consegnato{
+    color: greenyellow;
+  }

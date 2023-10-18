@@ -1,0 +1,147 @@
+  .postit{
+    /*background-color: #2d3436;*/
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border:1px solid white;
+    border-radius: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.452);
+  }
+
+	.ticket{
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 25px;
+		color: gold;
+	}
+
+	.ticket-title{
+		color: gold;
+		text-transform: uppercase;
+		text-align: center;
+	}
+  
+  .riep {
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+	}
+
+	.riep-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+	}
+
+	.riep-text {
+		font-size: 19px;
+		font-weight: normal;
+	}
+  
+  .cont-comp{
+    color: white;
+    text-align: center;
+  
+}
+  
+  .text-middle-bottom{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .select_form-ord{ 
+    border-radius: 0.75rem;
+  }
+
+  .select_title_form{
+    margin-bottom: 20px;
+  }
+
+  .ticket-table{
+    color: gold ;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    margin: 0 10px;
+  }
+
+  .ticket-table-name{
+    text-align: center;
+    align-self: center;
+  }
+
+  .ticket-table-title{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .col-20{
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .ticket-row{
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+    margin: 0 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+  }
+
+  .ticket-row-text{
+    text-align: center;
+    align-self: center;
+  }
+
+  .ticket-table-row-text{
+    font-size: 19px;
+    display: block;
+  }
+
+  .glow-on-hover {
+    font-size: 18px;
+  }
+
+  .middle{
+    margin-top:40px;
+  }
+
+  .select_form{
+    margin-top: 20px;
+  }
+
+  .ticket-row-text.num, .ticket-table-name.num{
+    max-width: 10%;
+    flex: 0 0 10%;
+  }
+
+  .ticket-row-text.ogg, .ticket-table-name.ogg{
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+
+  #Completato{
+    color: greenyellow;
+  }
+  
+  #Accettato{
+    color: gold;
+  }
+  
+  #Creato{
+    color: white;
+  }
+  
+  .ticket-table-row-text::first-letter{
+    text-transform: uppercase;
+  }

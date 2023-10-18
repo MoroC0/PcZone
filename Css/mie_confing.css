@@ -1,0 +1,162 @@
+/*.postit{
+  /*background-color: #2d3436;
+  margin-top: 4%;
+  margin-bottom: 0px;
+  /*margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 30px;
+  padding-right: 5%; 
+  padding-left: 5%;
+  padding-bottom: 30px;
+  /*border-radius: 20px;
+  border-bottom: 1px solid white;
+  border:1px solid white;
+  border-radius: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.452);
+}*/
+
+.postit{
+  padding: 20px 30px;
+  margin: 0 10px;
+  border:1px solid white;
+  border-radius: 0.75rem;
+}
+
+/*.to-left{
+  text-align:left;
+  font-weight: bold;
+  color: white;
+}
+
+.to-right{
+  text-align:right;
+  font-weight: bold;
+  color: white;
+}*/
+
+.to-left{
+  text-align:left;
+  font-weight: bold;
+  color: gold;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.to-right{
+  text-align:right;
+  font-weight: bold;
+  color: gold;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.spazio{
+  margin-bottom: 10px;
+}
+
+.title-ord{
+  margin: 0 15px;
+}
+
+.linked{
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: auto;
+}
+
+.linked{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  /*padding: 0 50px;*/
+  /*font-weight: bold;*/
+}
+
+.linked:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.cont-comp{
+  margin-bottom: 1%;
+}
+
+.text-middle-bottom{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+/*.col-container{
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid white;
+}*/
+
+.col-container{
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 0;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-container:first-child{
+  margin-top: 0;
+}
+
+.col-container:last-child{
+  padding-bottom: 0;
+  border: none;
+}
+
+.col{
+  display: table-cell;
+  padding-bottom: 10px;
+}
+
+.middle{
+  margin-top:40px;
+}
+
+.select_form{
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.select_form-ord{
+  /*background-color: rgba(255, 255, 255, 0.452);
+  max-width: 70%;*/
+  margin: 50px auto;
+  /*padding: 15px;*/
+  border-radius: 0.75rem;
+}
+
+.spazio{
+  margin-bottom: 10px;
+}
+
+.text-comp{
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.link{
+  margin-top: 10px;
+}
+
+.linked.page{
+  padding-top: 5px;
+}
+
+.col-img-left{
+  padding-left: 70px;
+}
+
+.col-price-right{
+  padding-right: 70px;
+}

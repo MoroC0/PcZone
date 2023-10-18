@@ -1,0 +1,137 @@
+.title-centr{
+    color: gold;
+    margin:auto;
+    text-align: center;
+
+}
+
+.mb-12px{
+    padding-bottom: 12px;
+}
+
+.mt-12px{
+    margin-top: 12px !important;
+}
+
+.pdlf-10px{
+    padding-left: 10px;
+}
+
+.background-card{
+    background-color: rgba(255, 255, 255, 0.452) !important;
+    border-radius: 0.75rem;
+    padding: 15px 15px;
+    margin: 0 30px;
+}
+
+.background-card:first-child{
+    margin-left: 0;
+}
+
+.background-card:last-child{
+    margin-right: 0;
+}
+
+.col-riep{
+    flex: 0 0 36%;
+    max-width: 36%;
+    height: 100%;
+}
+
+.cont-info{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.middle{
+    margin-top: 30px;
+}
+
+.btn-block{
+    width: auto;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+/*Radio buttons*/
+
+label.radio {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 9px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    color: white;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.452) !important;
+    font-weight: 500;
+    font-size: 19px ;
+}
+
+label.radio input:checked+span {
+    border-color: gold;
+    background: rgba(255, 255, 255, 0.65) !important;
+    color: green;
+}
+
+textarea.form-control{
+    height: 100px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+}
+
+.riep{
+    height: 40px; 
+    padding-left: 10px;
+    color: white;
+}
+
+.riep:last-child{
+    height: auto;
+}
+
+.riep-title{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.riep-text{
+    font-size:19px;
+    font-weight: normal;
+}
+
+.text-middle-top{
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.text-help{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.needs-validation{
+    margin: auto;
+}

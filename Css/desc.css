@@ -1,0 +1,175 @@
+.background-card{
+    background-color: rgba(255, 255, 255, 0.452) !important;
+    border-radius: 0.75rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    letter-spacing: 0.6px ;
+}
+
+.title-spec{
+    font-size: 19px;
+}
+
+.row-cntr{
+    margin: auto !important;
+}
+
+.desc-spec{
+    display: block;
+    width: 100%;
+    padding: 0 1%;
+}
+
+
+.col-7{
+    flex: 0 0 64%;
+    max-width: 64%;
+}
+
+.title-name{
+    text-transform: uppercase;
+    color: gold;
+    margin-bottom: 5%;
+    font-size: 34px;
+}
+
+.container.top{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-photo{
+    display:flex;
+    align-items:center;
+    border-right:1px solid #f6f6f6;
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 3% !important;
+    margin-bottom: 0%;
+}
+
+.title.brand{
+    margin-top: 5px; 
+    text-transform: capitalize;
+}
+
+.title.brand.text{
+    font-size: 19px;
+    margin-left: 0px;
+    border-bottom: 0px;
+    font-weight: initial;
+    
+}
+
+.title.desc{
+    margin-bottom: 0px;
+}
+
+.title.desc.text{
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: initial;
+}
+
+.title.desc.text:first-letter{
+    text-transform: uppercase;
+}
+
+.title.quantita{
+    margin-top: 30px;
+}
+
+.title.quantita.text{
+    font-size: 19px;
+    margin-left: 0px;
+    font-weight: initial;
+}
+
+.title.quantita.text::first-letter{
+    text-transform: uppercase;
+}
+
+
+.title.price{
+    margin-top: 25px;
+    margin-bottom:0;
+}
+
+.title.price.text{
+    font-size: 19px;
+    margin-left: 0px;
+    font-weight: initial;
+}
+
+.section{
+    width: auto;
+    margin-top: 15px;
+    float: right;
+}
+
+.btn-success{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    font-size: 19px;
+}
+
+.menu-items{
+    list-style-type:none;
+    display:inline-flex;
+    margin-bottom:0;
+    margin-top:20px;
+    padding-left: 15px;
+    margin-left: 1%;
+    text-transform: uppercase;
+}
+
+li.attivo{
+    border-bottom:3px solid gold;
+    font-size: 19px;
+    margin-right:25px;
+    color: gold;
+}
+
+li.disattivo{
+    font-size: 19px;
+    font-weight:lighter;
+    cursor:pointer;
+    color: gold;
+}
+
+.table-text{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 14px;
+}
+
+.row.spec{
+    padding-top: 10px;
+    border-top: 1px solid white;
+    font-size: 19px;
+    color: white;
+}
+
+.spex{
+    margin-bottom: 5px;
+}
+
+.spex.left{
+    border-right: 1px solid white;
+    width: 105%;
+}
+
+.spex.right{
+    color:white;
+}
+
+.spex.right::first-letter{
+    text-transform: uppercase;
+}

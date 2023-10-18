@@ -1,0 +1,118 @@
+
+.spazio{
+  margin-bottom: 25px;
+}
+
+.linked{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.linked:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.cont-comp{
+  margin-bottom: 1%;
+}
+
+.text-middle-bottom{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.col-container{
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.col{
+  display: table-cell;
+  padding-bottom: 10px;
+}
+
+.select_form-ord{
+  /*background-color: rgba(255, 255, 255, 0.452);
+  max-width: 70%;*/
+  margin: 50px auto;
+  /*padding: 15px;*/
+  border-radius: 0.75rem;
+}
+
+.ticket-table{
+  color: gold ;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  margin: 0 10px;
+}
+
+.ticket-table-name{
+  text-align: center;
+  align-self: center;
+}
+
+.ticket-table-title{
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.col-20{
+  flex: 0 0 20%;
+  max-width: 20%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.ticket-row{
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.ticket-row-text{
+  text-align: center;
+  align-self: center;
+}
+
+.ticket-table-row-text{
+  font-size: 19px;
+}
+
+.glow-on-hover {
+  font-size: 18px;
+}
+
+.middle{
+  margin-top:40px;
+}
+
+.select_form{
+  margin-top: 20px;
+}
+
+#Accettato{
+  color: white;
+}
+
+#Spedito{
+  color: gold;
+}
+
+#Consegnato{
+  color: greenyellow;
+}

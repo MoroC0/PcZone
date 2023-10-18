@@ -1,0 +1,88 @@
+.eye{
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.form-border{
+    border: 1px solid white;
+    border-radius: 0.75rem;
+    padding: 40px !important;
+    border-radius: 0.5rem; 
+    border: 1px solid white; 
+    background-color: rgba(255, 255, 255, 0.452) !important;
+}
+
+.text-title-login{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+.email-label{
+    margin-top: 4rem;
+}
+
+.link-label{
+    border-bottom: 1px solid white;
+    height: 50px;
+}
+
+.text-link-reg{
+    color: white;
+    /*padding-top: 12px;*/
+    /*height: 50px;*/
+    text-align: center;
+    font-size: 18px;
+}
+
+.reg-link{
+    color: gold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.452) !important;
+    color: white;
+  }
+  
+  .icon-white{
+    color: white;
+  }
+  
+  .form-label-group > label{
+    color: white;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) ~ label {
+    color: white;
+  }
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  @supports (-ms-ime-align: auto) {
+    .form-label-group > label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: white;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .form-label-group > label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: white;
+    }
+  }

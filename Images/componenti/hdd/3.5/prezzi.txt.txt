@@ -1,0 +1,6 @@
+seagate-2tb-7200rpm  162,97 €
+wd-500g-7200rpm 30,00 
+toshiba-2tb-7200rpm 61,23 
+seagate-8tb-7200rpm 281,13
+seagate-1tb-7200rpm  42,90
+wd-3tb-5400rpm 82,79

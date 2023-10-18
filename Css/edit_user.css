@@ -1,0 +1,213 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.edit-title{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    height: 50px;
+    font-size: 46px;
+    font-weight: 600;
+    /*padding-top: 30px;*/
+}
+
+.text-rules-box{
+  height: 50px;
+  border-bottom: 1px solid white;
+}
+
+.text-rules-box-last{
+  height: 50px;
+  /*border-bottom: 1px solid white;*/
+}
+
+.text-rules{
+  color: white;
+  /*padding-top: 12px;*/
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.tab-content-pt{
+  padding-top: 57px;
+}
+
+.form-edit-user{
+  border-radius: 0.5rem; 
+  border: 1px solid white; 
+  background-color: rgba(255, 255, 255, 0.452) !important;
+  padding: 40px;
+}
+
+.margin-label{
+  margin-bottom: 0px;
+}
+
+.page{
+  transition: 0.5s;
+}
+
+.page#blur.active{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popup{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+  /*background-color:maroon;*/
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(00,78,146,0.9475140397956058) 50%, rgba(0,0,0,1) 100%);
+  border: 1px solid white;
+  border-radius: 0.75rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#popup.active{
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.reg-title{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 50px;
+  padding-top: 30px;
+}
+
+.reg-title2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 50px;
+  /*padding-top: 30px;*/
+}
+
+
+.col-padding-left{
+  padding-left: 0;
+}
+
+.col-padding-right{
+  padding-right: 0;
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.452) !important;
+  color: white;
+}
+
+.icon-white{
+  color: white;
+}
+
+.form-label-group > label{
+  color: white;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  color: white;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: white;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: white;
+  }
+}
